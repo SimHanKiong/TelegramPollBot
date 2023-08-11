@@ -1,13 +1,13 @@
 import json
-import request
+import requests
 
 base_url = 'https://api.telegram.org/bot6058334295:AAGGjs89mcyHLjIrFzxRZKhZ4twQKowLx8U/sendPoll'
 
 parameters = {
   'chat_id': '-920155043',
   'question': 'Dinz',
-  'options': json.dumps(['6.30 pm', '7 pm', '7.30 pm'])
+  'options': json.dumps(['6.30 pm', '7 pm', '7.30 pm']),
   'is_anonymous': False
 }
 
-request.get(base_url, data = parameters)
+requests.get(base_url, data = parameters)
