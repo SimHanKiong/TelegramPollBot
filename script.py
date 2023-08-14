@@ -6,7 +6,7 @@ base_url = 'https://api.telegram.org/bot6058334295:AAGGjs89mcyHLjIrFzxRZKhZ4twQK
 parameters = {
   'chat_id': '-780533831',
   'question': 'Dinz',
-  'options': json.dumps(['6.30 pm', '7 pm', '7.30 pm']),
+  'options': json.dumps(['6 pm', '6.30 pm', '7 pm', '7.30 pm']),
   'is_anonymous': False,
   'allows_multiple_answers': True
 }
