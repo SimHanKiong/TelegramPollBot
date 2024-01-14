@@ -1,4 +1,4 @@
-name: run script.py
+name: run dinner.py
 
 on:
   schedule:
@@ -21,5 +21,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: execute py script # run script.py
-        run: python script.py
+      - name: execute py dinner # run dinner.py
+        run: python dinner.py
